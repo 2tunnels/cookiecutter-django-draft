@@ -2,7 +2,7 @@
   "project_name": "Django Draft",
   "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
   "secret_key": "secret",
-  "database_name": "{{ project_slug }}",
-  "database_user": "{{ project_slug }}",
+  "database_name": "{{ cookiecutter.project_slug }}",
+  "database_user": "{{ cookiecutter.project_slug }}",
   "database_password": "secret"
 }
